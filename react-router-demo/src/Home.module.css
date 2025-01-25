@@ -1,0 +1,12 @@
+/* src/Home.module.css */
+.homeContainer {
+    background-color: #ffcc00;
+    padding: 20px;
+    border-radius: 8px;
+  }
+  
+  .homeTitle {
+    color: #333;
+    font-size: 24px;
+  }
+  

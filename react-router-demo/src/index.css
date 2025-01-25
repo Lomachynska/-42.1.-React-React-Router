@@ -1,0 +1,31 @@
+/* Загальні стилі для елемента body */
+body {
+  margin: 0;  /* Встановлюємо нульовий відступ для body, щоб не було дефолтних відступів браузера */
+
+  /* Встановлюємо сімейство шрифтів для тексту на сторінці.
+     Це дозволяє мати кращу сумісність з різними операційними системами та пристроями:
+     - '-apple-system' — шрифт для пристроїв Apple (Mac, iPhone, iPad тощо)
+     - 'BlinkMacSystemFont' — шрифт для браузерів на основі Blink (наприклад, Chrome на Mac)
+     - 'Segoe UI' — шрифт для Windows
+     - 'Roboto', 'Oxygen', 'Ubuntu' тощо — альтернативи для систем, які не підтримують попередні шрифти.
+  */
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
+    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
+    sans-serif;
+
+  /* Покращення вигляду шрифтів на екранах Apple */
+  -webkit-font-smoothing: antialiased;  /* Для плавнішого відображення шрифтів на Mac */
+  -moz-osx-font-smoothing: grayscale;  /* Для плавнішого відображення шрифтів на Firefox для Mac */
+}
+
+/* Стилі для елементів <code> */
+code {
+  /* Встановлюємо шрифт, який зазвичай використовується для відображення коду. 
+     Це забезпечує зручність читання та консистентний вигляд коду у веб-браузері:
+     - source-code-pro, Menlo, Monaco — це шрифти, які часто використовуються для відображення коду.
+     - Consolas, 'Courier New' — більш традиційні моноширинні шрифти для коду.
+     - monospace — резервний шрифт, що забезпечує моноширину (однакову ширину для всіх символів).
+  */
+  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
+    monospace;
+}
